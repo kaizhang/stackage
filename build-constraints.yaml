@@ -2063,6 +2063,8 @@ packages:
         - barrier
 
     "Kai Zhang <kai@kzhang.org> @kaizhang":
+        - HsHTSLib
+        - clustering
         - matrices
 
     "Michel Boucey <michel.boucey@gmail.com> @MichelBoucey":
@@ -6146,6 +6148,7 @@ expected-test-failures:
     - bloodhound # ElasticSearch
     - cabal-install
     - cayley-client
+    - clustering # requires R environment
     - consul-haskell
     - cql-io # Cassandra
     - credential-store # requieres dbus sockets
